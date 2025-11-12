@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ro">
 <head>
@@ -15,8 +16,22 @@
     header {
       background-color: #1e3d59;
       color: white;
-      padding: 2em;
+      padding: 2em 1em 1em;
       text-align: center;
+    }
+    nav {
+      background-color: #163447;
+      text-align: center;
+      padding: 0.5em 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 1em;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
     }
     section {
       padding: 2em;
@@ -53,13 +68,24 @@
     <p>Leadership civic. Diplomație digitală. Viziune europeană.</p>
   </header>
 
-  <section>
+  <nav>
+    <a href="#acasa">Acasă</a>
+    <a href="#despre">Despre noi</a>
+    <a href="https://github.com/dialog360/dialog360" target="_blank">GitHub</a>
+  </nav>
+
+  <section id="acasa">
     <h2>Bine ai venit!</h2>
     <p><strong>Dialog360</strong> este o platformă dedicată colaborării, reflecției și acțiunii civice. Creată din dorința de a conecta idei, oameni și soluții, această inițiativă își propune să contribuie la o Europă mai transparentă, mai implicată și mai echitabilă.</p>
 
     <p>Fie că ești interesat de diplomație, leadership comunitar sau transformare digitală, aici vei găsi resurse, proiecte și oportunități de implicare.</p>
 
     <a href="https://github.com/dialog360/dialog360" class="button">Vezi proiectul pe GitHub</a>
+  </section>
+
+  <section id="despre">
+    <h2>Despre noi</h2>
+    <p>Dialog360 este o inițiativă civică fondată de Emanuel Sereșan, cu scopul de a promova leadershipul responsabil, diplomația participativă și colaborarea digitală în spațiul european. Proiectul îmbină experiența în educație, voluntariat militar și activism comunitar cu o viziune deschisă spre inovație și impact social.</p>
   </section>
 
   <footer>
