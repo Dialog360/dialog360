@@ -1,116 +1,34 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="google-site-verification" content="o3N5AC5jaTs2KKDauPhSKEAPqDfda8FvxqoSQ8vFRY8" />
-  <meta name="description" content="Dialog360 este o platformă civică pentru leadership, diplomație digitală și implicare europeană.">
-  <meta name="robots" content="index, follow">
-  <title>Dialog360 – Platformă civică pentru leadership și diplomație digitală</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f9f9f9;
-      margin: 0;
-      padding: 0;
-      color: #333;
-    }
-    header {
-      background-color: #1e3d59;
-      color: white;
-      padding: 2em 1em 1em;
-      text-align: center;
-    }
-    nav {
-      background-color: #163447;
-      text-align: center;
-      padding: 0.5em 0;
-    }
-    nav a {
-      color: white;
-      margin: 0 1em;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    section {
-      padding: 2em;
-      max-width: 800px;
-      margin: auto;
-    }
-    h1, h2 {
-      color: #1e3d59;
-    }
-    .button {
-      display: inline-block;
-      margin-top: 1em;
-      padding: 0.7em 1.5em;
-      background-color: #007acc;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-    .button:hover {
-      background-color: #005fa3;
-    }
-    footer {
-      background-color: #eee;
-      text-align: center;
-      padding: 1em;
-      font-size: 0.9em;
-      margin-top: 2em;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dialog360</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
   <header>
     <h1>Dialog360</h1>
     <p>Leadership civic. Diplomație digitală. Viziune europeană.</p>
+    <p><a href="manifest.html">📜 Citește manifestul Dialog360</a></p>
   </header>
 
-  <nav>
-    <a href="#acasa">Acasă</a>
-    <a href="#despre">Despre</a>
-    <a href="#contact">Contact</a>
-    <a href="https://github.com/dialog360/dialog360" target="_blank">GitHub</a>
-  </nav>
+  <section>
+    <h2>Contactează-ne</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <label for="name">Nume:</label><br />
+      <input type="text" id="name" name="name" placeholder="Prenume și nume" required /><br /><br />
 
-  <section id="acasa">
-    <h2>Bine ai venit!</h2>
-    <p><strong>Dialog360</strong> este o platformă dedicată colaborării, reflecției și acțiunii civice. Creată din dorința de a conecta idei, oameni și soluții, această inițiativă își propune să contribuie la o Europă mai transparentă, mai implicată și mai echitabilă.</p>
-    <p>Fie că ești interesat de diplomație, leadership comunitar sau transformare digitală, aici vei găsi resurse, proiecte și oportunități de implicare.</p>
-    <a href="https://github.com/dialog360/dialog360" class="button">Vezi proiectul pe GitHub</a>
-  </section>
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" placeholder="adresa@email.com" required /><br /><br />
 
-  <section id="despre">
-    <h2>Despre noi</h2>
-    <p>Dialog360 este o inițiativă civică fondată de Emanuel Serețan, cu scopul de a promova leadershipul responsabil, diplomația participativă și colaborarea digitală în spațiul european. Proiectul îmbină experiența în educație, voluntariat militar și activism comunitar cu o viziune deschisă spre inovație și impact social.</p>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Pentru colaborări, întrebări sau sugestii, ne poți scrie direct prin formularul de mai jos:</p>
-    <form action="https://formspree.io/f/xdkykorl" method="POST">
-      <label for="name">Nume:</label><br>
-      <input type="text" id="name" name="name" placeholder="Prenume și nume" required><br><br>
-
-      <label for="email">Email:</label><br>
-      <input type="email" id="email" name="email" placeholder="adresa@email.com" required><br><br>
-
-      <label for="message">Mesaj:</label><br>
-      <textarea id="message" name="message" rows="5" placeholder="Scrie mesajul tău aici..." required></textarea><br><br>
+      <label for="message">Mesaj:</label><br />
+      <textarea id="message" name="message" rows="5" placeholder="Scrie mesajul tău aici..." required></textarea><br /><br />
 
       <button type="submit">Trimite</button>
     </form>
   </section>
 
   <footer>
-  © 2025 Dialog360 · Creat cu pasiune, curaj și responsabilitate
-</footer>
-
-<p><a href="manifest.html">📜 Citește manifestul Dialog360</a></p>
-
-</body>
-</html>
+    © 2025 Dialog360 · Creat cu pasi
