@@ -1,16 +1,30 @@
-## Hi there 👋
+# Dialog360
 
-<!--
-**Dialog360/dialog360** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Leadership civic. Diplomație digitală. Viziune europeană.**
 
-Here are some ideas to get you started:
+Dialog360 este o platformă civică dedicată colaborării, reflecției și acțiunii în spațiul european. Creată de Emanuel Sereșan, inițiativa promovează transparența, implicarea comunitară și inovația digitală.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🌍 Ce oferim
+
+- Resurse pentru leadership comunitar și diplomație participativă
+- Proiecte civice și inițiative europene
+- Formulare de contact și colaborare
+- Cod sursă deschis pentru transparență și reutilizare
+
+## 🔗 Site live
+
+[https://dialog360.github.io/dialog360/](https://dialog360.github.io/dialog360/)
+
+## 🛠️ Tehnologii folosite
+
+- HTML5 + CSS3
+- GitHub Pages pentru hosting
+- Formspree pentru trimiterea formularelor
+
+## 📬 Contact
+
+Pentru întrebări sau colaborări, folosește formularul de pe site sau scrie-ne direct.
+
+---
+
+Creat cu pasiune, curaj și responsabilitate.
