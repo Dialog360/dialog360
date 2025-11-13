@@ -1,3 +1,7 @@
+![Ultimul commit](https://img.shields.io/github/last-commit/dialog360/dialog360)
+![Dimensiune repo](https://img.shields.io/github/repo-size/dialog360/dialog360)
+![Probleme deschise](https://img.shields.io/github/issues/dialog360/dialog360)
+![Pull requests](https://img.shields.io/github/issues-pr/dialog360/dialog360)
 # Dialog360
 
 **Leadership civic. Diplomație digitală. Viziune europeană.**
