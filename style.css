@@ -1,57 +1,57 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 20px;
-  background-color: #f5f5f5;
-  color: #333;
-}
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dialog360</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-header {
-  background-color: #0055aa;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
+  <header>
+    <h1>Dialog360</h1>
+    <p>Leadership civic. Diplomație digitală. Viziune europeană.</p>
+    <p><a href="manifest.html">📜 Citește manifestul Dialog360</a></p>
+    <hr />
+    <p><strong>🌐 English version below</strong></p>
+  </header>
 
-header h1 {
-  margin: 0;
-  font-size: 2em;
-}
+  <section>
+    <h2>Contactează-ne</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <label for="name">Nume:</label><br />
+      <input type="text" id="name" name="name" placeholder="Prenume și nume" required /><br /><br />
 
-section {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" placeholder="adresa@email.com" required /><br /><br />
 
-footer {
-  margin-top: 40px;
-  text-align: center;
-  font-size: 0.9em;
-  color: #666;
-}
+      <label for="message">Mesaj:</label><br />
+      <textarea id="message" name="message" rows="5" placeholder="Scrie mesajul tău aici..." required></textarea><br /><br />
 
-a {
-  color: #0055aa;
-  text-decoration: none;
-  font-weight: bold;
-}
+      <button type="submit">Trimite</button>
+    </form>
+  </section>
 
-a:hover {
-  text-decoration: underline;
-}
+  <section>
+    <h2>Contact Us</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <label for="name-en">Name:</label><br />
+      <input type="text" id="name-en" name="name" placeholder="First and last name" required /><br /><br />
 
-button {
-  background-color: #0055aa;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-}
+      <label for="email-en">Email:</label><br />
+      <input type="email" id="email-en" name="email" placeholder="your@email.com" required /><br /><br />
 
-button:hover {
-  background-color: #003f7f;
-}
+      <label for="message-en">Message:</label><br />
+      <textarea id="message-en" name="message" rows="5" placeholder="Write your message here..." required></textarea><br /><br />
+
+      <button type="submit">Send</button>
+    </form>
+    <p><a href="manifest-en.html">📜 Read the Dialog360 Manifesto</a></p>
+  </section>
+
+  <footer>
+    © 2025 Dialog360 · Creat cu pasiune, curaj și responsabilitate · Created with passion, courage, and responsibility
+  </footer>
+
+</body>
+</html>
