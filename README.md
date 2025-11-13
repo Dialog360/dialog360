@@ -29,9 +29,9 @@ Dialog360 este o platformă civică dedicată colaborării, reflecției și acț
 ## 🤝 Contribuie
 
 Oricine este binevenit să contribuie la Dialog360. Poți:
-- Deschide un *issue* pentru sugestii sau probleme
-- Trimite un *pull request* cu îmbunătățiri
-- Propune idei pentru dezvoltare civică
+- Deschide un *issue* pentru sugestii sau probleme  
+- Trimite un *pull request* cu îmbunătățiri  
+- Propune idei pentru dezvoltare civică  
 
 ## 📄 Licență
 
@@ -45,7 +45,13 @@ Dialog360 is a civic platform for collaboration, reflection, and action across E
 
 Visit the live site: [https://dialog360.github.io/dialog360/](https://dialog360.github.io/dialog360/)
 
----
+## 📚 Useful resources
+
+- [GitHub Pages Documentation](https://docs.github.com/en/pages)  
+- [Formspree Contact Forms](https://formspree.io/)  
+- [HTML & CSS Reference](https://developer.mozilla.org/en-US/docs/Web)  
+- [Google Search Console](https://search.google.com/search-console/about)  
+- [MIT License Info](https://opensource.org/licenses/MIT)  
 
 ## 📬 Contact
 
